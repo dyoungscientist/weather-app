@@ -1,0 +1,72 @@
+ *{
+    background-color: rgb(254, 254, 255);
+    font-family: 'Courier New', Courier, monospace;
+    
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+
+ }
+ .homepage {
+ text-align: middle;
+ justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    
+ }
+ .homepage h1{ 
+    font-size: 100px;
+    border: 10px solid rgb(126, 156, 246);
+    background-color: rgb(126, 156, 246);
+    text-align: center;
+      padding: 20px;
+    border-radius: 20px;
+    font-weight: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10;
+   justify-content: center;
+    text-decoration: underline;
+   text-decoration-color: rgb(126, 156, 246);
+ }
+ .homepage button {
+   background-color: rgb(126, 156, 246);
+   text-align: center;
+    margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 40px;
+      border-radius: 20px;
+      border: none;
+      color: rgb(249, 248, 245);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+      cursor: pointer;
+
+      
+   }
+   .homepage form input[type="text"]{
+      width: 1300px;
+      height:500px;
+      font-size: 50px;
+      padding: 10px;
+       border-radius: 20px;
+       border: none;
+       background-color: rgb(255, 255, 255);
+      color: rgb(169, 103, 165);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: background-color 0.3s, color 0.3s, border 0.3s;
+   cursor: pointer;
+   height: fit-content;
+   }
+   .homepage button:hover {
+    background-color: rgb(255, 255, 255);
+    color:  rgb(142, 164, 238);
+   border: none;
+    cursor: pointer;
+   }
